@@ -7,14 +7,13 @@ const cookieParser= require('cookie-parser');
 const PORT= process.env.PORT || 6000;
 
 
-
+//sagar samui
 // requiring files
 
 const userRouter= require('./routes/UserRoute');
 const crudRouter= require('./routes/CrudRoute');
 const productRouter= require('./routes/ProductRoutes');
 const router = require('./routes/ProductRoutes');
-const ServerlessHttp = require('serverless-http');
 
 const mongoConnect= async()=>{
     try {
