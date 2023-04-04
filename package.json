@@ -1,0 +1,32 @@
+{
+  "name": "cruid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"netlify deploy --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@nestjs/swagger": "^6.1.3",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.13.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "netlify-cli": "^13.2.2",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.8.0",
+    "randomstring": "^1.2.3",
+    "serverless-http": "^3.2.0",
+    "validator": "^13.7.0",
+    "validatorjs": "^3.22.1"
+  }
+}
