@@ -1,7 +1,5 @@
 # Node
-In this project I have created Created Multiple APIs for Login, Logout, Registration, Crete Delete Update Get Products, 
-Add Product Id into Users Id, Forget Password Using Nodemailer and etc. Plz insert all the required details into the .env file to purform the 
-tasks. I am providing all the Api and Payloads in the bottom.
+In this project, I have created Created Multiple APIs for Login, Logout, Registration, Crete, Delete, Update, Get Products, Add Product Id into Users Id, Forget Password Using Nodemailer and etc. Insert all the required details into the Env file to perform the tasks. I am providing all the API and Payloads in the bottom.
 
 1) Get All and One CRUD Products
    API Get http://localhost:6000/api/auth/v2/product
@@ -66,7 +64,7 @@ tasks. I am providing all the Api and Payloads in the bottom.
 }
 
 10) POST User Product
-    Only Login Usrer can access this API
+    Only Login User can access this API
     Api Post http://localhost:6000/api/auth/v3/userProduct/:userid
     Payload {
     "productName":"pajama",
@@ -77,10 +75,10 @@ tasks. I am providing all the Api and Payloads in the bottom.
 }
 
 11) GET One and All User Product
-    Only Login Usrer can access this API
+    Only Login User can access this API
     Api Get http://localhost:6000/api/auth/v3/userProduct  
     Api GetOne http://localhost:6000/api/auth/v3/userProduct/:id
     
 12) Delete User Product
-    Only Login Usrer can access this API
+    Only Login User can access this API
     API Del http://localhost:6000/api/auth/v3/userProduct/:id/:userid
