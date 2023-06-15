@@ -64,7 +64,6 @@ const Details= new mongoose.Schema({
 
 Details.methods.generateAuthToken = async function () {
     try {
-
         let myToken = jwt.sign({_id:this._id, isAdmin:this.isAdmin},process.env.SECURITY);
         this.tokens = this.tokens.concat({token:myToken});
         await this.save();

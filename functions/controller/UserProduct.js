@@ -1,6 +1,5 @@
 const productData = require('../models/Product');
 const userData = require('../models/User');
-const createError = require('../utils/errorController');
 
 // Create User Data
 

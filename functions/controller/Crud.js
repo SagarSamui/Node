@@ -15,23 +15,6 @@ exports.createProduct=async(req,res,next)=>{
     }
 }
 
-// exports.createProduct='/api/create',async(req,res,next)=>{
-//     const create = new crudData(req.body);
-
-//     try {
-//         const createdData = await create.save();
-//         res.status(200).json({
-//             success:true,
-//             createdData,
-//             message:'Product Successfully created'
-//         })
-        
-//     } catch (err) {
-//         next(err)
-//     }
-// }
-
-
 exports.updateProduct= async(req,res,next)=>{
     try {
         const update = await crudData.findByIdAndUpdate(req.params.id,{$set:req.body},{new:true});
